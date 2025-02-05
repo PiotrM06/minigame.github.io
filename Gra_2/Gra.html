@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gra: Kamień, Papier, Nożyce</h1>
+    <div class="Gra">
+        <div class="bot">
+            <img src="Bot.jpg" alt="Obrazek bota" id="bot-img">
+        </div>
+        <div id="wynik">Wybierz Opcję</div>
+        <div class="choose">
+            <img src="Kamień.jpg" alt="Kamień" onclick="gra('Kamień')">
+            <img src="Papier.jpg" alt="Papier" onclick="gra('Papier')">
+            <img src="Nożyce.jpg" alt="Nożyce" onclick="gra('Nożyce')">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
